@@ -10,6 +10,15 @@ def fazerEscolha(sala):
 
     escolha = int(input())
     escolha -= 1
+
+    while escolha < 0 or escolha > 1:
+        print("\nO valor inserido é invalido, porfavor digite 1 ou 2")
+        print("[1] Caminho Vermelho")
+        print("[2] Caminho Preto\n")
+
+        escolha = int(input())
+        escolha -= 1
+
     return sala + opcao[escolha]
 
 def sala6(sala):
