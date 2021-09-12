@@ -59,10 +59,40 @@ def final (contador):
         print("\nVocê chegou ao fim da dungeon com {} jogadas".format(contador))
         print("Você usou 7 ou mais jogadas, infelizmente você perdeu!\n")
 
+def menuPrincipal():
+
+    print("\nMENU")
+    print("[1] Iniciar")
+    print("[2] Regras")
+
+    menu = int(input("Escolha sua Opção\n"))
+    if menu == 2:
+        regras()
+
+    while menu < 1 or menu > 2:
+        print("Voce digitou um valor invalido por favor tente novamente")
+        print("\nMENU")
+        print("[1] Iniciar")
+        print("[2] Regras")
+
+        menu = int(input("Escolha sua opção\n"))
+        if menu == 2:
+            regras()
+
+def regras():
+    print("Regras")
+    print("Para vencer você precisa chegar a sala 9 com menos de 7 jogadas")
+    print("Você tem um limite de 10 jogadas")
+    print("Você pode escolher entre o caminho vermelho e preto")
+    print("A sala 6 tem apenas um caminho")
+    print("A sala 8 te leva a um portal que te teletransportará entre as salas 1 e 5")
+    input("pressione ENTER para continuar\n")
+
 def main():
     sala = 1
     contador = 0
 
+    menuPrincipal()
     while sala != 9 and contador < 10:
         contador += 1
         print ("\nJOGADA ", contador)
@@ -72,7 +102,7 @@ def main():
             sala = sala6(sala)
         else:
             sala = sala8(sala) 
-    final (contador)    
+    final (contador)
 
 if __name__ == "__main__":
     main()
