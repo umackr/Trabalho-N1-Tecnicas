@@ -28,6 +28,9 @@ Você é o lider de um grupo de herois, seu objetivo é guia-los até o final da
 ## Membros da equipe
 
 Paulo Machado Fraga Matos - 21587836
+
 Leonardo Silva Magalhães de Barros - 21525982
+
 Helcio Gabriel Batista de Oliveira Almeida -21525331
+
 Felipe Monteiro - 21568441
