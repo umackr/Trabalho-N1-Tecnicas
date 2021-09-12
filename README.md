@@ -4,7 +4,7 @@
 
 Trabalho proposto pelo professor André Santana, na materia Tecnicas de Programação para composição de nota da N1.
 
-## Objetivo do RPG
+## Objetivo do RPG ⚔️
 
 `
 Você é o lider de um grupo de herois, seu objetivo é guia-los até o final da Dungeon de forma segura.
@@ -17,7 +17,7 @@ Você é o lider de um grupo de herois, seu objetivo é guia-los até o final da
 - [x] Sala 8 tem um portal que te leva a sala 1 a 5. 
 - [x] Ter feito menos de 7 jogadas.
 
-## Criterio Adicional
+## Criterio Adicional 👨‍🏫
 
 - [x] Ter ao menos uma estrutura de repetição, seja While ou For.
 - [x] Dentro desta estrutura de repetição pode possuir apenas um comando if, elif e else, não pode possuir switch - case.
@@ -25,7 +25,7 @@ Você é o lider de um grupo de herois, seu objetivo é guia-los até o final da
 - [x] Codigo tem que ser feito em Python.
 
 
-## Membros da equipe
+## Membros da equipe 👨‍👦‍👦
 
 Paulo Machado Fraga Matos - 21587836
 
